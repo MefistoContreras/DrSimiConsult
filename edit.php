@@ -16,8 +16,8 @@
 
     if(isset($_POST['update'])){
         $id=$_GET['id'];
-        $title = $_POST['title'];
-        $description = $_POST['description'];        
+        $title = filter_var($_POST['title'], FILTER_SANITIZE_STRING);
+        $description = filter_var($_POST['description'], FILTER_SANITIZE_STRING);        
         $query = "UPDATE task set title = '$title', description = '$description' WHERE id = $id";
         mysqli_query($conn,$query);
 
@@ -41,7 +41,7 @@
                             <textarea name="description"  rows="2" class="form-control" placeholder="Cambiar descripción"><?php echo $description ?></textarea>
                         </div>
                         <button class="btn btn-success" name="update">
-                            Update
+                            Cambiar
                         </button>
                     </form>
                 </div>

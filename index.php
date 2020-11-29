@@ -9,6 +9,7 @@
             <div class="alert alert-<?= $_SESSION['message_type']?>
              alert-dismissible fade show" role="alert">
                 <?= $_SESSION['message'] ?>
+                <div class="tenor-gif-embed" data-postid="9657987" data-share-method="host" data-width="100%" data-aspect-ratio="1.8241758241758241"><a href="https://tenor.com/view/dr-simi-gif-9657987">Dr Simi GIF</a> from <a href="https://tenor.com/search/dr-gifs">Dr GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

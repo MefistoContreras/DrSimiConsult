@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class=" navbar navbar-dark bg-dark">
         <div class="container">
+            <img style="height:80px"  src="includes\logo-simi.png"  alt="Logo de un dr"> 
             <a href="index.php" class="navbar-brand">Manejo citas</a>
+            <div class="col-md"></div>
         </div>
 
     </nav>

@@ -8,4 +8,3 @@ $conn = mysqli_connect(
     '5e38f796',
     'heroku_f87fe3a8ed22866'
 );
-
