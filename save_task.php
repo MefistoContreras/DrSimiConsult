@@ -10,10 +10,10 @@ if(isset($_POST['save_task']))
     $query = "INSERT INTO task(title, description) VALUES ('$title','$description')";
     $result= mysqli_query($conn, $query);
     if(!$result){
-        die("Query Failed");
+        die("Servidor caído :(");
     }
 
-    $_SESSION['message'] = 'Task Saved succesfully';
+    $_SESSION['message'] = 'Consulta agendada con éxito';
     $_SESSION['message_type'] = 'success';
 
     header("Location: index.php");

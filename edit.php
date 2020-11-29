@@ -21,7 +21,7 @@
         $query = "UPDATE task set title = '$title', description = '$description' WHERE id = $id";
         mysqli_query($conn,$query);
 
-        $_SESSION['message'] = "Task Updated Successfully";
+        $_SESSION['message'] = "Cita cambiada con éxito";
         $_SESSION['message_type'] = "primary";
         header("Location: index.php");
     }
@@ -41,7 +41,7 @@
                             <textarea name="description"  rows="2" class="form-control" placeholder="Cambiar descripción"><?php echo $description ?></textarea>
                         </div>
                         <button class="btn btn-success" name="update">
-                            Cambiar
+                            Cambiar cita
                         </button>
                     </form>
                 </div>

@@ -27,7 +27,7 @@
                                 placeholder="Descripción del paciente"></textarea>
                         </div>
                     </div>
-                    <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save task">
+                    <input type="submit" class="btn btn-success btn-block" name="save_task" value="Guardar cita">
             </div>
         </div>
         </form>
